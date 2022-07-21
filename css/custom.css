@@ -13,3 +13,63 @@ body, html{
 #header .navbar-collapse{
     width: auto;
 }
+
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px 15px 0px 15px;
+    color: black;
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 4px var(--secondary);
+    color: var(--secondary)
+}
+
+#slider{
+    background-image: url(../imagens/slider-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#slider h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#servicos a.destaque{
+    display: block;
+    background: var(--light);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition:all ease-out 0.2s;
+}
+
+#servicos a.destaque:hover{
+    background-color: var(--light);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.12);
+    transform: scale(1.05);
+}
+
+#serviços p{
+    color: var(--primary-dark);
+}
+
+#serviços a.destaque .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
